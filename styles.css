@@ -42,8 +42,8 @@ h1 {
    float: right;
     height:100%;
     clear: both;
-    padding-top: 20px;
-    margin-right:50px;
+    padding-top: 50px;
+    margin-right:72px;
 }
 
 .navigation a{
@@ -52,7 +52,7 @@ h1 {
     float: left;
     padding: 0px 20px;
     font-family: 'Montserrat';
-    font-size: 36px;
+    font-size: 24px;
     color:black;
 }
 
@@ -69,20 +69,70 @@ h1 {
 }
 
 .box2 {
-    height:250px;
+    height:100px;
     width:100%;
     background-color: white;
     color: black;
-    text-align: right;
+    text-align: center;
     font-size: 36px;
     font-family:'Montserrat';
-    padding-top:230px;
+    padding-top:300px;
+    padding-right: 72px;
+   
+}
+
+.box3 {
+    height:500px;
+    width:500px;
+    background-color:rgba(186, 0, 45, 1);
+    margin-left: 72px;
+    margin-top: 72px;
+}
+
+.work1 {
+    text-align: left;
+    padding-left: 72px;
+    font-size: 36px;
+    font-family: 'Montserrat';
+
+}
+
+.description1 {
+    text-align: left;
+    padding-left: 72px;
+    font-size: 24px;
+    font-family: 'Montserrat';
+    color: grey;
+}
+
+.box4 {
+    float:top;
+    margin-left: 60%;
+    height:700px;
+    width:500px;
+    background-color: rgba(186, 0, 45, 1);
     
+    
+}
+
+.work2 {
+    text-align: right;
+    padding-right: 313px;
+    font-size: 36px;
+    font-family: 'Montserrat';
+}
+
+.description2 {
+    text-align: right;
+    padding-right: 223px;
+    font-size: 24px;
+    font-family: 'Montserrat';
+    color: grey;
 }
 
 .footer{
     height:50px;
-    position: fixed;
+    position: bottom;
     left:0;
     bottom:0;
     width:100%;
