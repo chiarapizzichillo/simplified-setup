@@ -106,9 +106,15 @@ h2{
     
 }
 
-.behance{
+.linkedin{
     display: flex;
     padding-right: var(--unit-xl);
+    
+}
+
+.linkedin:hover{
+    transition: 0.2s;
+    opacity: 0.5;
 }
 
 .dribbble {
@@ -116,11 +122,29 @@ h2{
     padding-right: var(--unit-xl);
 }
 
+.dribbble:hover{
+    transition: 0.2s;
+    opacity: 0.5;
+}
+
 .insta{
     display:flex;
     padding-right:var(--unit-xl) ;
 }
 
+.insta:hover{
+    transition: 0.2s;
+    opacity: 0.5;
+}
+
+.behance {
+    display: flex;
+}
+
+.behance:hover {
+    transition: 0.2s;
+    opacity: 0.5;
+}
 
 .footer{
     height:70px;

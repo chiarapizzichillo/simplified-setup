@@ -11,6 +11,7 @@
     --color-primary:rgba(249, 241, 230);
     --color-secundary:rgba(186, 0, 45, 1);
     --color-terciary:rgba(253, 249, 245, 1);
+    --color-secundary-50:rgba(186, 0, 45, 0.5);
     
     --unit-xs: 12px;
     --unit-s: 24px;
@@ -119,6 +120,11 @@ h1 {
     background-color:var(--color-secundary);
 }
 
+.box3:hover{
+    transition: 0.2s;
+    background-color:var(--color-secundary-50);
+}
+
 .work1 {
     align-self: flex-end;
     width: 100%;
@@ -147,6 +153,11 @@ h1 {
     width:40%;
     background-color: var(--color-secundary);
     
+}
+
+.box4:hover{
+    transition: 0.2s;
+    background-color:var(--color-secundary-50);
 }
 
 .work2 {
