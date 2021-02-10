@@ -63,7 +63,6 @@ h1 {
 }
 
 .navigation a{
-    transition: 0.2s all;
     height:100%;
     display: table;
     float: left;
@@ -75,6 +74,7 @@ h1 {
 }
 
 .navigation a:hover{
+    transition: 0.2s;
     color:var(--color-secundary);
 }
 
@@ -91,6 +91,35 @@ h2{
     font-family: 'Montserrat';
 }
 
+.socials {
+    padding-left: var(--unit-xl);
+    padding-top: var(--unit-xl);
+}
+
+.container{
+    height: 100%;
+    width:700px;
+    padding-left:var(--unit-xl);
+    display: flex;
+    padding-top: var(--unit-xl);
+    padding-bottom: 250px;
+    
+}
+
+.behance{
+    display: flex;
+    padding-right: var(--unit-xl);
+}
+
+.dribbble {
+    display:flex;
+    padding-right: var(--unit-xl);
+}
+
+.insta{
+    display:flex;
+    padding-right:var(--unit-xl) ;
+}
 
 
 .footer{
