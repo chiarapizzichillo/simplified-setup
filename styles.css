@@ -84,12 +84,14 @@ h1 {
     height: 350px;
     width: 100%;
     background-color: white;
-    color:black;
     text-align: left;
-    font-size: var(--unit-l);
-    font-family: 'Montserrat';
     padding-left: var(--unit-xl);
     padding-top: var(--unit-xl);
+}
+
+h2{
+    font-size: var(--unit-l);
+    font-family:'Montserrat';
 }
 
 .box2 {
@@ -98,11 +100,14 @@ h1 {
     background-color: white;
     color: black;
     text-align: center;
-    font-size: var(--unit-m);
-    font-family:'Montserrat';
     padding-top:300px;
     padding-right: var(--unit-xl);
    
+}
+
+h3 {
+    font-size: var(--unit-m);
+    font-family: 'Montserrat';
 }
 
 .container {
@@ -132,11 +137,9 @@ h1 {
 }
 
 .title {
-    text-align: left;  
-    font-size: var(--unit-m);
-    font-family: 'Montserrat';
-
+    text-align: left; 
 }
+
 
 .description1 {
     text-align: left;
@@ -168,8 +171,6 @@ h1 {
 
 .title2 {
     text-align: left;
-    font-size: var(--unit-m);
-    font-family: 'Montserrat';
 }
 
 .description2 {

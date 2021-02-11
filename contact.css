@@ -54,6 +54,8 @@ h1 {
     display: inline-block;
 }
 
+
+
 .navigation {
    float: right;
     height:100%;
@@ -80,6 +82,11 @@ h1 {
 
 h2{
     font-size: var(--unit-m);
+    font-family: 'Montserrat';
+}
+
+h3 {
+    font-size: var(--unit-s);
     font-family: 'Montserrat';
 }
 

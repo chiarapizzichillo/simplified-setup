@@ -82,11 +82,13 @@ h1 {
     height: 400px;
     width: 100%;
     background-color: white;
-    color:black;
     text-align: left;
+    padding-left: var(--unit-xl);
+}
+
+h2{
     font-size: var(--unit-l);
     font-family: 'Montserrat';
-    padding-left: var(--unit-xl);
 }
     
 h3{
